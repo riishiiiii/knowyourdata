@@ -1,2 +1,2 @@
 # knowyourdata
-### GitHub Repository: [KnowYourData](https://github.com/rishibrainerhub/knowyourdata)
+### WEB APPLICATION: [KnowYourData](https://riishiiiii-knowyourdata-main-7o2ths.streamlit.app/)
