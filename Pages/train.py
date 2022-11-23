@@ -62,7 +62,7 @@ def app():
                             score = pd.DataFrame(score_dict)
                             st.dataframe(score)
                             best_model = score.sort_values(by=['Recall'], ascending=False).head(1)['Model'].values[0]
-                            st.success(f"best performin model is {best_model}")
+                            st.success(f"Best performing Model is {best_model}")
                             if best_model == "Logisticregression":
                                 st.session_state["best_model"] = logreg
                             if best_model == "SVC":
@@ -117,7 +117,7 @@ def app():
                             score = pd.DataFrame(score_dict)
                             st.dataframe(score)
                             best_model = score.sort_values(by=['r2 score'], ascending=False).head(1)['Model'].values[0]
-                            st.success(f"best performin model is {best_model}")
+                            st.success(f"Best performing Model is {best_model}")
                             if best_model == "Logisticregression":
                                 st.session_state["best_model"] = logreg
                             if best_model == "SVC":
